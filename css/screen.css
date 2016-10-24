@@ -89,7 +89,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: black;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
+.transition, .LeftBlock, .RightBlock {
+  transition-property: all;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+/* line 45, ../sass/screen.scss */
 #PageLayer {
   font-family: Arial, sans-serif;
   width: 100%;
@@ -101,34 +108,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .BlocksRelPosition {
   position: relative;
   top: 0px;
   left: 0px;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .WhiteBoldFont, .HeaderContentTitle, .HeaderContentText, .AboutHeaderTitle {
   font-family: "OpenSans-Bold", Arial, sans-serif;
   color: #fff;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .Header {
   background: #69d2e7;
   width: 100%;
   height: 465px;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .Footer {
   background: #fa6900;
   width: 100%;
   height: 500px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .HeaderContentTitle {
   text-align: center;
   font-size: 4em;
@@ -136,21 +143,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1.3em;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .HeaderContentText {
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .About {
   width: 100%;
   height: auto;
   background: #f1f1f1;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .AboutHeader {
   width: 70%;
   border-radius: 10px;
@@ -169,7 +176,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .AboutHeaderTitle {
   color: #000;
   padding: 1% 15% 3%;
@@ -179,7 +186,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 2px solid #d5d5d5;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .AboutHeaderText {
   color: #000000;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -189,13 +196,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 1em;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .AboutContentList {
   max-width: 2000px;
   margin: 0 auto;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .BgForm {
   width: 162px;
   height: 162px;
@@ -205,12 +212,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 2em;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .ConstWidthOfList {
   margin-bottom: 2em;
+  min-width: 200px;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .AboutContentListText {
   font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 1.4em;
@@ -218,34 +226,169 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1em;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .BgForm div {
   background-image: url("../images/sprite.png");
   width: 100%;
   height: 100%;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .AboutContentListCellsBg {
   background: #fff;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .AboutContentListCellsBg div {
   background-position: -90px 0px;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .AboutContentListTonometrBg div {
   background-position: -198px 0px;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .AboutContentListAtomBg {
   background: #fff;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .AboutContentListAtomBg div {
   background-position: -1px 0px;
+}
+
+/* line 171, ../sass/screen.scss */
+.MediaInfo {
+  height: auto;
+  background: #fa6900;
+}
+
+/* line 175, ../sass/screen.scss */
+.SliderContainer {
+  position: relative;
+  top: 0px;
+  height: 330px;
+}
+
+/* line 180, ../sass/screen.scss */
+.CommonPropertiesOfSlide {
+  width: 440px;
+  height: 300px;
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+
+/* line 191, ../sass/screen.scss */
+.LeftBlock {
+  left: 25%;
+  opacity: .5;
+}
+
+/* line 195, ../sass/screen.scss */
+.RightBlock {
+  left: 75%;
+  opacity: .5;
+}
+
+/* line 202, ../sass/screen.scss */
+.CenterBlock {
+  z-index: 2;
+}
+
+/* line 205, ../sass/screen.scss */
+.LeftBlock:hover, .RightBlock:hover {
+  left: 50%;
+  opacity: 1;
+}
+
+/* line 209, ../sass/screen.scss */
+.SliderHeadPart {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background: #535a6c;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: left;
+}
+
+/* line 220, ../sass/screen.scss */
+.SliderHeadPartPoints {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin: 7px;
+}
+
+/* line 226, ../sass/screen.scss */
+ul.SliderHeadPartPoints li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+/* line 233, ../sass/screen.scss */
+.SliderHeadPartSearch {
+  display: block;
+  width: 370px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 10px;
+  height: 15px;
+  background: #fff;
+  border-radius: 5px;
+  text-align: right;
+}
+
+/* line 244, ../sass/screen.scss */
+.SliderHeadPartSearchIcon {
+  font-size: 12px;
+  margin-right: 5px;
+  color: #535a6c;
+}
+
+/* line 249, ../sass/screen.scss */
+.ToLeftButton, .ToRightButton {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #7f7f7f;
+  background: transparent;
+  color: #7f7f7f;
+  font-size: 25px;
+}
+
+/* line 261, ../sass/screen.scss */
+.ToLeftButton {
+  left: 20px;
+}
+
+/* line 264, ../sass/screen.scss */
+.ToRightButton {
+  right: 20px;
+}
+
+/* line 267, ../sass/screen.scss */
+.MediaInfoHeaderText {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 1.4em;
+  color: #fff;
+  width: 55%;
+  line-height: 1.6em;
+  margin: 1.5em auto 35px;
 }

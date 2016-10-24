@@ -37,7 +37,11 @@ $Blue: #69d2e7;
       -ms-transform: translate($dX, $dY);
           transform: translate($dX, $dY);
 }
-
+.transition{
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
 #PageLayer{
 	font-family: Arial, sans-serif;
 	width: 100%;
@@ -136,6 +140,7 @@ $Blue: #69d2e7;
 .ConstWidthOfList{
 	//width: 20%;
 	margin-bottom: 2em;
+	min-width: 200px;
 }
 .AboutContentListText{
 	font-family: "OpenSans-Regular", Arial, sans-serif;
@@ -162,4 +167,108 @@ $Blue: #69d2e7;
 }
 .AboutContentListAtomBg div{
 	background-position: -1px 0px;
+}
+.MediaInfo{
+	height: auto;
+	background: $Orange;
+}
+.SliderContainer{
+	position: relative;
+	top: 0px;
+	height: 330px;
+}
+.CommonPropertiesOfSlide{
+	width: 440px;
+	height: 300px;
+	background: #fff;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	@include translate(-50%, 0%);
+}
+.LeftBlock{
+	left: 25%;
+	opacity: .5;
+}
+.RightBlock{
+	left: 75%;
+	opacity: .5;
+}
+.LeftBlock, .RightBlock{
+	@extend .transition;
+} 
+.CenterBlock{
+	z-index: 2;
+}
+.LeftBlock:hover, .RightBlock:hover{
+	left: 50%;
+	opacity: 1;
+}
+.SliderHeadPart{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	background: #535a6c;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: left;
+}
+.SliderHeadPartPoints{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	margin: 7px;
+}
+ul.SliderHeadPartPoints li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+}
+.SliderHeadPartSearch{
+    display: block;
+    width: 370px;
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    height: 15px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: right;
+}
+.SliderHeadPartSearchIcon{
+	font-size: 12px;
+    margin-right: 5px;
+    color: #535a6c;
+}
+.ToLeftButton, .ToRightButton{
+	position: absolute;
+	top: 50%;
+	//@include translate(0%, -50%);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid #7f7f7f;
+	background: transparent;
+	color: #7f7f7f;
+	font-size: 25px;
+}
+.ToLeftButton{
+	left: 20px;
+}
+.ToRightButton{
+	right: 20px;
+}
+.MediaInfoHeaderText{
+    font-family: "OpenSans-Light", Arial, sans-serif;
+    font-size: 1.4em;
+    color: #fff;
+    width: 55%;
+    line-height: 1.6em;
+    margin: 1.5em auto 35px;
 }
