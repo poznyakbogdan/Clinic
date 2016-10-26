@@ -130,12 +130,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 70, ../sass/screen.scss */
 .Footer {
-  background: #fa6900;
+  background: #f1f1f1;
   width: 100%;
-  height: 500px;
+  height: 630px;
+  padding-top: 70px;
+  padding-left: 85px;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .HeaderContentTitle {
   text-align: center;
   font-size: 4em;
@@ -143,21 +145,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1.3em;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .HeaderContentText {
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .About {
   width: 100%;
   height: auto;
   background: #f1f1f1;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .AboutHeader {
   width: 70%;
   border-radius: 10px;
@@ -176,7 +178,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .AboutHeaderTitle {
   color: #000;
   padding: 1% 15% 3%;
@@ -186,7 +188,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 2px solid #d5d5d5;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .AboutHeaderText {
   color: #000000;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -196,13 +198,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 1em;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .AboutContentList {
   max-width: 1700px;
   margin: 0 auto;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .BgForm {
   width: 162px;
   height: 162px;
@@ -212,13 +214,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 2em;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .ConstWidthOfList {
   margin-bottom: 2em;
   min-width: 200px;
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .AboutContentListText {
   font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 1.4em;
@@ -226,52 +228,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1em;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .BgForm div {
   background-image: url("../images/sprite.png");
   width: 100%;
   height: 100%;
 }
 
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .AboutContentListCellsBg {
   background: #fff;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .AboutContentListCellsBg div {
   background-position: -90px 0px;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .AboutContentListTonometrBg div {
   background-position: -198px 0px;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .AboutContentListAtomBg {
   background: #fff;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .AboutContentListAtomBg div {
   background-position: -1px 0px;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .MediaInfo {
   height: auto;
   background: #fa6900;
 }
 
-/* line 175, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .SliderContainer {
   position: relative;
   top: 0px;
   height: 330px;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .CommonPropertiesOfSlide {
   width: 440px;
   height: 300px;
@@ -287,30 +289,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translate(-50%, 0%);
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .LeftBlock {
   left: 25%;
   opacity: .5;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .RightBlock {
   left: 75%;
   opacity: .5;
 }
 
-/* line 202, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .CenterBlock {
   z-index: 2;
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .LeftBlock:hover, .RightBlock:hover {
   left: 50%;
   opacity: 1;
 }
 
-/* line 209, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .SliderHeadPart {
   position: relative;
   top: 0px;
@@ -323,7 +325,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: left;
 }
 
-/* line 220, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .SliderHeadPartPoints {
   width: auto;
   height: auto;
@@ -331,7 +333,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 7px;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 ul.SliderHeadPartPoints li {
   display: inline-block;
   width: 10px;
@@ -340,7 +342,7 @@ ul.SliderHeadPartPoints li {
   background: #fff;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .SliderHeadPartSearch {
   display: block;
   width: 370px;
@@ -353,14 +355,14 @@ ul.SliderHeadPartPoints li {
   text-align: right;
 }
 
-/* line 244, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .SliderHeadPartSearchIcon {
   font-size: 12px;
   margin-right: 5px;
   color: #535a6c;
 }
 
-/* line 249, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .ToLeftButton, .ToRightButton {
   position: absolute;
   top: 50%;
@@ -373,17 +375,17 @@ ul.SliderHeadPartPoints li {
   font-size: 25px;
 }
 
-/* line 261, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .ToLeftButton {
   left: 20px;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .ToRightButton {
   right: 20px;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .MediaInfoHeaderText {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1.4em;
@@ -393,14 +395,14 @@ ul.SliderHeadPartPoints li {
   margin: 1.5em auto 35px;
 }
 
-/* line 275, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 .Doctors {
   width: 100%;
   height: auto;
   background: #f1f1f1;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .DoctorsContainer {
   display: flex;
   flex-direction: column;
@@ -417,7 +419,7 @@ ul.SliderHeadPartPoints li {
   transform: translate(-50%, 0%);
 }
 
-/* line 292, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .DoctorsAvatar {
   width: 180px;
   height: 180px;
@@ -426,7 +428,7 @@ ul.SliderHeadPartPoints li {
   margin: 40px 0 25px;
 }
 
-/* line 299, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .DoctorsName {
   font-family: "OpenSans-Bold", Arial, sans-serif;
   font-size: 1.5em;
@@ -434,7 +436,7 @@ ul.SliderHeadPartPoints li {
   margin: 5px 0 0px;
 }
 
-/* line 305, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .DoctorsSpecialty {
   font-family: "OpenSans-Light", Arial, sans-serif;
   color: #000;
@@ -442,7 +444,7 @@ ul.SliderHeadPartPoints li {
   margin: 5px 0 25px;
 }
 
-/* line 311, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 .DoctorsText {
   width: 50%;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -452,12 +454,12 @@ ul.SliderHeadPartPoints li {
   margin: 5px 0 25px;
 }
 
-/* line 319, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 .DoctorsRadioBtn {
   margin: 100px 0 20px;
 }
 
-/* line 322, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 .DoctorsRadioBtn li {
   width: 22px;
   height: 22px;
@@ -469,7 +471,7 @@ ul.SliderHeadPartPoints li {
   margin: 0px 10px;
 }
 
-/* line 332, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 .Information {
   width: 100%;
   height: 550px;
@@ -477,7 +479,7 @@ ul.SliderHeadPartPoints li {
   overflow: hidden;
 }
 
-/* line 339, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 .InformationContainer {
   position: relative;
   top: 0%;
@@ -493,33 +495,30 @@ ul.SliderHeadPartPoints li {
   overflow: hidden;
 }
 
-/* line 350, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 .RoundBlock {
   width: 1560px;
   height: 1050px;
   border-radius: 50%;
   background: #fff;
-  position: absolute;
-  top: 50%;
-  right: 0px;
-  -webkit-transform: translate(56%, -50%);
-  -moz-transform: translate(56%, -50%);
-  -ms-transform: translate(56%, -50%);
-  transform: translate(56%, -50%);
+  -webkit-transform: translate(53%, -76%);
+  -moz-transform: translate(53%, -76%);
+  -ms-transform: translate(53%, -76%);
+  transform: translate(53%, -76%);
 }
 
-/* line 360, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .InformationContent {
   background: transparent;
   width: 100%;
   height: 100%;
-  padding-right: 700px;
+  padding-right: 39%;
   padding-left: 90px;
   padding-top: 100px;
   text-align: left;
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 374, ../sass/screen.scss */
 .InformationContentTitle {
   font-size: 1.5em;
   font-family: "OpenSans-Bold", Arial, sans-serif;
@@ -527,7 +526,7 @@ ul.SliderHeadPartPoints li {
   margin: 0 0 5px;
 }
 
-/* line 375, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .InformationContentUnderTitle {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1.3em;
@@ -535,14 +534,99 @@ ul.SliderHeadPartPoints li {
   margin: 0 0 50px;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .InformationContentText {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1em;
   color: #fff;
   line-height: 1.2em;
 }
-/* line 386, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .InformationContentText br {
   line-height: 3em;
+}
+
+/* line 395, ../sass/screen.scss */
+.FooterContent {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 400px;
+}
+
+/* line 403, ../sass/screen.scss */
+.FooterCompanyInfo {
+  height: 50px;
+  text-align: left;
+  color: #000;
+}
+
+/* line 408, ../sass/screen.scss */
+.FooterCompanyInfo div {
+  width: 50px;
+  height: 50px;
+  background: #fa6900;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 416, ../sass/screen.scss */
+.FooterCompanyInfo h3 {
+  text-transform: uppercase;
+  font-family: "OpenSans-Bold", Arial, sans-serif;
+  font-size: 1em;
+  padding-top: 5px;
+}
+
+/* line 422, ../sass/screen.scss */
+.FooterCompanyInfo span {
+  font-family: "OpenSans-Regular", Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+/* line 426, ../sass/screen.scss */
+.FooterSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* line 433, ../sass/screen.scss */
+.FooterSocial li {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  box-sizing: border-box;
+  background: #69d2e7;
+  border: 1px solid black;
+  border-left: 0px;
+  background: transparent;
+}
+
+/* line 443, ../sass/screen.scss */
+.FooterSocial li:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 1px solid black;
+}
+
+/* line 448, ../sass/screen.scss */
+.FooterSocial li:nth-child(4) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* line 452, ../sass/screen.scss */
+.FooterText {
+  font-family: "OpenSans-Light", Arial, sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  width: 80%;
+  line-height: 1.5em;
+}
+/* line 458, ../sass/screen.scss */
+.FooterText br {
+  line-height: 2.5em;
 }

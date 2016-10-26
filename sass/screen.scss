@@ -68,9 +68,11 @@ $Blue: #69d2e7;
 	height: 465px;
 }
 .Footer{
-	background: $Orange;
+	background: #f1f1f1;
 	width: 100%;
-	height: 500px;	
+	height: 630px;	
+	padding-top: 70px;
+	padding-left: 85px;
 }
 .HeaderContentTitle{
 	text-align: center;
@@ -352,16 +354,19 @@ ul.SliderHeadPartPoints li{
 	height: 1050px;
 	border-radius: 50%;
 	background: #fff;
-	position: absolute;
-	top: 50%;
-	right: 0px;
-	@include translate(56%, -50%);
+	//position: absolute;
+	//top: 50%;
+	//right: 0px;
+	@include translate(53%, -76%);
+	// -webkit-shape-outside: circle(50%);
+ //    shape-outside: circle(50%);
+ //    clip-path: circle(50%);
 }
 .InformationContent{
 	background: transparent;
 	width: 100%;
 	height: 100%;
-	padding-right: 700px;
+	padding-right: 39%;
 	padding-left: 90px;
 	padding-top: 100px;
 	text-align: left;
@@ -385,5 +390,72 @@ ul.SliderHeadPartPoints li{
 	line-height: 1.2em;
 	br{
 		line-height: 3em;
+	}
+}
+.FooterContent{
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 400px;
+}
+.FooterCompanyInfo{
+	height: 50px;
+	text-align: left;
+	color: #000;
+}
+.FooterCompanyInfo div{
+	width: 50px;
+	height: 50px;
+	background: $Orange;
+	//display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.FooterCompanyInfo h3{
+	text-transform: uppercase;
+	font-family: "OpenSans-Bold", Arial, sans-serif;
+	font-size: 1em;
+	padding-top: 5px;
+}
+.FooterCompanyInfo span{
+	font-family: "OpenSans-Regular", Arial, sans-serif;
+	font-size: 0.9em;
+}
+.FooterSocial{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	//border: 1px solid black;
+	//border-radius: 5px; 
+}
+.FooterSocial li{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	box-sizing: border-box;
+	background: $Blue;
+	border: 1px solid black;
+	border-left: 0px;
+	background: transparent;
+}
+.FooterSocial li:nth-child(1){
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: 1px solid black;
+}
+.FooterSocial li:nth-child(4){
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.FooterText{
+	font-family: "OpenSans-Light", Arial, sans-serif;
+	font-size: 1.1em;
+	text-align: left;
+	width: 80%;
+	line-height: 1.5em;
+	br{
+		line-height: 2.5em;
 	}
 }
