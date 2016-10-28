@@ -6,7 +6,9 @@
 		<title>Clinic</title>
 		<script type="text/javascript" src="js/jquery/jquery-3.1.1.js" defer></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" defer></script>
+		<script type="text/javascript" src="js/clinic.js"></script>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontello.css">
 		<link rel="stylesheet" type="text/css" href="css/screen.css">
 	</head>
 	<body>
@@ -104,7 +106,7 @@
 				<p class="MediaInfoHeaderText">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				</p>
-				<div class="container SliderContainer">
+				<div class="container SliderContainer" id="MediaSlider">
 					<div class="LeftBlock CommonPropertiesOfSlide">
 						<div class="SliderHeadPart">
 							<ul class="SliderHeadPartPoints">
@@ -196,59 +198,66 @@
 						</p>
 					</div>
 					<div class="RoundBlock">
-						
+						<div class="RoundBlockContent">
+							
+						</div>
 					</div>
 				</div>
 			</section>
 
 			<footer class="container-fluid Footer BlocksRelPosition">
-				<div class="row FooterContainer">
-					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 FooterContent">
-						<div class="FooterCompanyInfo">
-							<div></div>
-							<h3>company name</h3>
-							<span>Tag Line Goes Here</span>
+				<div class="FooterContFluid">	
+					<div class="row FooterContainer">
+						<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 FooterContent">
+							<div class="FooterCompanyInfo">
+								<div></div>
+								<h3>company name</h3>
+								<span>Tag Line Goes Here</span>
+							</div>
+							<ul class="FooterSocial">
+								<li class="FooterSocialIcon"><a href=""><span class="icon-twitter"></span></a></li>
+								<li class="FooterSocialIcon"><a href=""><span class="icon-facebook"></span></a></li>
+								<li class="FooterSocialIcon"><a href=""><span class="icon-vk"></span></a></li>
+								<li class="FooterSocialIcon"><a href=""><span class="icon-linkedin"></span></a></li>
+							</ul>
+							<p class="FooterText">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							</p>
 						</div>
-						<ul class="FooterSocial">
-							<li><a href="">f</a></li>
-							<li><a href="">t</a></li>
-							<li><a href="">p</a></li>
-							<li><a href="">in</a></li>
-						</ul>
-						<p class="FooterText">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-						</p>
+						<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 FooterPosts">
+							<h2 class="FooterPostsTitle">Latest Post</h2>
+							<div class="FooterPostContainer">
+								<div class="FooterPostContainerPreview"></div>
+								<strong>Lorem ipsum dolor sit amet cons...</strong>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+							<div class="FooterPostContainer">
+								<div class="FooterPostContainerPreview"></div>
+								<strong>Lorem ipsum dolor sit amet cons...</strong>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+							<div class="FooterPostContainer">
+								<div class="FooterPostContainerPreview"></div>
+								<strong>Lorem ipsum dolor sit amet cons...</strong>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 FooterPosts">
-						<h2 class="FooterPostsTitle">Latest Post</h2>
-						<div class="FooterPostContainer">
-							<div class="FooterPostContainerPreview"></div>
-							<strong>Lorem ipsum dolor sit amet cons...</strong>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
-						<div class="FooterPostContainer">
-							<div class="FooterPostContainerPreview"></div>
-							<strong>Lorem ipsum dolor sit amet cons...</strong>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
-						<div class="FooterPostContainer">
-							<div class="FooterPostContainerPreview"></div>
-							<strong>Lorem ipsum dolor sit amet cons...</strong>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
+				</div>	
+				<div class="FooterBottomNavContainer">
+					<div class="FooterBottomNav">
+						<span>Terms of Use | Privacy & cookies</span>
+						<span>Copyright © 2016, All rights reserved.</span>
 					</div>
-				</div>
-				<div class="FooterBottomNav">
-					<span>Terms of Use | Privacy & cookies</span>
-					<span>Copyright © 2016, All rights reserved.</span>
-				</div>
+				</div>	
+			
 			</footer>
 
 		</div>

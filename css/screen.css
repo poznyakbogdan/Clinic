@@ -89,14 +89,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: black;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .transition, .LeftBlock, .RightBlock {
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: ease;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 #PageLayer {
   font-family: Arial, sans-serif;
   width: 100%;
@@ -108,36 +108,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .BlocksRelPosition {
   position: relative;
   top: 0px;
   left: 0px;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .WhiteBoldFont, .HeaderContentTitle, .HeaderContentText, .AboutHeaderTitle {
   font-family: "OpenSans-Bold", Arial, sans-serif;
   color: #fff;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .Header {
   background: #69d2e7;
   width: 100%;
   height: 465px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .Footer {
   background: #f1f1f1;
   width: 100%;
   height: auto;
-  padding-top: 70px;
-  padding-left: 85px;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .HeaderContentTitle {
   text-align: center;
   font-size: 4em;
@@ -145,21 +143,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1.3em;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .HeaderContentText {
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .About {
   width: 100%;
   height: auto;
   background: #f1f1f1;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .AboutHeader {
   width: 70%;
   border-radius: 10px;
@@ -178,7 +176,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .AboutHeaderTitle {
   color: #000;
   padding: 1% 15% 3%;
@@ -188,7 +186,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 2px solid #d5d5d5;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .AboutHeaderText {
   color: #000000;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -198,7 +196,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 1em;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .AboutContentList {
   max-width: 1700px;
   margin: 0 auto;
@@ -220,7 +218,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   min-width: 200px;
 }
 
-/* line 148, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .AboutContentListText {
   font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 1.4em;
@@ -228,52 +226,52 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 1em;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .BgForm div {
   background-image: url("../images/sprite.png");
   width: 100%;
   height: 100%;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .AboutContentListCellsBg {
   background: #fff;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .AboutContentListCellsBg div {
   background-position: -90px 0px;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .AboutContentListTonometrBg div {
   background-position: -198px 0px;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .AboutContentListAtomBg {
   background: #fff;
 }
 
-/* line 171, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .AboutContentListAtomBg div {
   background-position: -1px 0px;
 }
 
-/* line 174, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .MediaInfo {
   height: auto;
   background: #fa6900;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .SliderContainer {
   position: relative;
   top: 0px;
   height: 330px;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .CommonPropertiesOfSlide {
   width: 440px;
   height: 300px;
@@ -289,30 +287,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translate(-50%, 0%);
 }
 
-/* line 194, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .LeftBlock {
   left: 25%;
   opacity: .5;
 }
 
-/* line 198, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .RightBlock {
   left: 75%;
   opacity: .5;
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .CenterBlock {
   z-index: 2;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .LeftBlock:hover, .RightBlock:hover {
   left: 50%;
   opacity: 1;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .SliderHeadPart {
   position: relative;
   top: 0px;
@@ -325,7 +323,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: left;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .SliderHeadPartPoints {
   width: auto;
   height: auto;
@@ -333,7 +331,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 7px;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 ul.SliderHeadPartPoints li {
   display: inline-block;
   width: 10px;
@@ -342,7 +340,7 @@ ul.SliderHeadPartPoints li {
   background: #fff;
 }
 
-/* line 236, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .SliderHeadPartSearch {
   display: block;
   width: 370px;
@@ -355,14 +353,14 @@ ul.SliderHeadPartPoints li {
   text-align: right;
 }
 
-/* line 247, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .SliderHeadPartSearchIcon {
   font-size: 12px;
   margin-right: 5px;
   color: #535a6c;
 }
 
-/* line 252, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .ToLeftButton, .ToRightButton {
   position: absolute;
   top: 50%;
@@ -375,17 +373,17 @@ ul.SliderHeadPartPoints li {
   font-size: 25px;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .ToLeftButton {
   left: 20px;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .ToRightButton {
   right: 20px;
 }
 
-/* line 270, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 .MediaInfoHeaderText {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1.4em;
@@ -395,14 +393,14 @@ ul.SliderHeadPartPoints li {
   margin: 1.5em auto 35px;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .Doctors {
   width: 100%;
   height: auto;
   background: #f1f1f1;
 }
 
-/* line 283, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .DoctorsContainer {
   display: flex;
   flex-direction: column;
@@ -419,7 +417,7 @@ ul.SliderHeadPartPoints li {
   transform: translate(-50%, 0%);
 }
 
-/* line 295, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .DoctorsAvatar {
   width: 180px;
   height: 180px;
@@ -428,7 +426,7 @@ ul.SliderHeadPartPoints li {
   margin: 40px 0 25px;
 }
 
-/* line 302, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .DoctorsName {
   font-family: "OpenSans-Bold", Arial, sans-serif;
   font-size: 1.5em;
@@ -436,7 +434,7 @@ ul.SliderHeadPartPoints li {
   margin: 5px 0 0px;
 }
 
-/* line 308, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 .DoctorsSpecialty {
   font-family: "OpenSans-Light", Arial, sans-serif;
   color: #000;
@@ -444,7 +442,7 @@ ul.SliderHeadPartPoints li {
   margin: 5px 0 25px;
 }
 
-/* line 314, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 .DoctorsText {
   width: 50%;
   font-family: "OpenSans-Light", Arial, sans-serif;
@@ -454,12 +452,12 @@ ul.SliderHeadPartPoints li {
   margin: 5px 0 25px;
 }
 
-/* line 322, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 .DoctorsRadioBtn {
   margin: 100px 0 20px;
 }
 
-/* line 325, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 .DoctorsRadioBtn li {
   width: 22px;
   height: 22px;
@@ -471,7 +469,7 @@ ul.SliderHeadPartPoints li {
   margin: 0px 10px;
 }
 
-/* line 335, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .Information {
   width: 100%;
   height: 550px;
@@ -479,7 +477,7 @@ ul.SliderHeadPartPoints li {
   overflow: hidden;
 }
 
-/* line 342, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 .InformationContainer {
   position: relative;
   top: 0%;
@@ -495,30 +493,38 @@ ul.SliderHeadPartPoints li {
   overflow: hidden;
 }
 
-/* line 353, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 .RoundBlock {
-  width: 1560px;
-  height: 1050px;
+  width: 100%;
+  height: 185%;
   border-radius: 50%;
-  background: #fff;
-  -webkit-transform: translate(53%, -76%);
-  -moz-transform: translate(53%, -76%);
-  -ms-transform: translate(53%, -76%);
-  transform: translate(53%, -76%);
+  background: #fa6900;
+  overflow: hidden;
+  -webkit-transform: translate(50%, -76%);
+  -moz-transform: translate(50%, -76%);
+  -ms-transform: translate(50%, -76%);
+  transform: translate(50%, -76%);
 }
 
-/* line 366, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .InformationContent {
   background: transparent;
   width: 100%;
   height: 100%;
-  padding-right: 39%;
+  padding-right: 53%;
   padding-left: 90px;
   padding-top: 100px;
   text-align: left;
 }
 
-/* line 375, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
+.RoundBlockContent {
+  width: 800px;
+  height: 775px;
+  background: #fff;
+}
+
+/* line 372, ../sass/screen.scss */
 .InformationContentTitle {
   font-size: 1.5em;
   font-family: "OpenSans-Bold", Arial, sans-serif;
@@ -526,7 +532,7 @@ ul.SliderHeadPartPoints li {
   margin: 0 0 5px;
 }
 
-/* line 381, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .InformationContentUnderTitle {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1.3em;
@@ -534,19 +540,44 @@ ul.SliderHeadPartPoints li {
   margin: 0 0 50px;
 }
 
-/* line 387, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .InformationContentText {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1em;
   color: #fff;
   line-height: 1.2em;
 }
-/* line 392, ../sass/screen.scss */
+/* line 389, ../sass/screen.scss */
 .InformationContentText br {
   line-height: 3em;
 }
 
-/* line 396, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
+.FooterContFluid {
+  width: 100%;
+  height: auto;
+  max-width: 1700px;
+  padding-top: 70px;
+  padding-left: 85px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+
+/* line 403, ../sass/screen.scss */
+.FooterBottomNavContainer {
+  width: 100%;
+  height: 70px;
+  background: #69d2e7;
+  position: absolute;
+  bottom: -70px;
+  left: 0px;
+}
+
+/* line 411, ../sass/screen.scss */
 .FooterContent {
   display: flex;
   flex-direction: column;
@@ -554,16 +585,17 @@ ul.SliderHeadPartPoints li {
   flex-wrap: wrap;
   justify-content: space-around;
   height: 420px;
+  margin-bottom: 2em;
 }
 
-/* line 404, ../sass/screen.scss */
+/* line 420, ../sass/screen.scss */
 .FooterCompanyInfo {
   height: 50px;
   text-align: left;
   color: #000;
 }
 
-/* line 409, ../sass/screen.scss */
+/* line 425, ../sass/screen.scss */
 .FooterCompanyInfo div {
   width: 50px;
   height: 50px;
@@ -572,7 +604,7 @@ ul.SliderHeadPartPoints li {
   margin-right: 10px;
 }
 
-/* line 417, ../sass/screen.scss */
+/* line 432, ../sass/screen.scss */
 .FooterCompanyInfo h3 {
   text-transform: uppercase;
   font-family: "OpenSans-Bold", Arial, sans-serif;
@@ -580,21 +612,21 @@ ul.SliderHeadPartPoints li {
   padding-top: 5px;
 }
 
-/* line 423, ../sass/screen.scss */
+/* line 438, ../sass/screen.scss */
 .FooterCompanyInfo span {
   font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 0.9em;
 }
 
-/* line 427, ../sass/screen.scss */
+/* line 442, ../sass/screen.scss */
 .FooterSocial {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-/* line 434, ../sass/screen.scss */
-.FooterSocial li {
+/* line 447, ../sass/screen.scss */
+.FooterSocialIcon {
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -603,22 +635,29 @@ ul.SliderHeadPartPoints li {
   border: 1px solid black;
   border-left: 0px;
   background: transparent;
+  padding: 0.6em 0.4em;
+}
+/* line 457, ../sass/screen.scss */
+.FooterSocialIcon a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
 }
 
-/* line 444, ../sass/screen.scss */
+/* line 463, ../sass/screen.scss */
 .FooterSocial li:nth-child(1) {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-left: 1px solid black;
 }
 
-/* line 449, ../sass/screen.scss */
+/* line 468, ../sass/screen.scss */
 .FooterSocial li:nth-child(4) {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-/* line 453, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 .FooterText {
   font-family: "OpenSans-Light", Arial, sans-serif;
   font-size: 1.1em;
@@ -626,12 +665,12 @@ ul.SliderHeadPartPoints li {
   width: 80%;
   line-height: 1.5em;
 }
-/* line 459, ../sass/screen.scss */
+/* line 478, ../sass/screen.scss */
 .FooterText br {
   line-height: 2.5em;
 }
 
-/* line 464, ../sass/screen.scss */
+/* line 483, ../sass/screen.scss */
 .FooterPosts {
   display: flex;
   flex-direction: column;
@@ -640,9 +679,10 @@ ul.SliderHeadPartPoints li {
   justify-content: space-around;
   height: 420px;
   text-align: left;
+  margin-bottom: 2em;
 }
 
-/* line 476, ../sass/screen.scss */
+/* line 496, ../sass/screen.scss */
 .FooterPostContainerPreview {
   width: 95px;
   height: 95px;
@@ -653,19 +693,19 @@ ul.SliderHeadPartPoints li {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* line 485, ../sass/screen.scss */
+/* line 505, ../sass/screen.scss */
 .FooterPostsTitle {
   font-family: "OpenSans-Bold", Arial, sans-serif;
   font-size: 1.5em;
   color: #000;
 }
 
-/* line 491, ../sass/screen.scss */
+/* line 511, ../sass/screen.scss */
 .FooterPostContainer strong {
   font-family: "OpenSans-Bold", Arial, sans-serif;
   font-size: 0.9em;
 }
-/* line 495, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .FooterPostContainer p {
   font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 0.9em;
@@ -673,17 +713,21 @@ ul.SliderHeadPartPoints li {
   line-height: 1.3em;
 }
 
-/* line 502, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 .FooterBottomNav {
-  position: absolute;
-  bottom: -70px;
-  left: 0px;
+  position: relative;
+  left: 50%;
   background: #69d2e7;
   height: 70px;
   width: 100%;
+  max-width: 1700px;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
 }
 
-/* line 510, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 .FooterBottomNav {
   display: flex;
   padding: 10px 100px;
@@ -692,7 +736,7 @@ ul.SliderHeadPartPoints li {
   justify-content: space-between;
   align-items: center;
 }
-/* line 517, ../sass/screen.scss */
+/* line 538, ../sass/screen.scss */
 .FooterBottomNav span {
   font-family: "OpenSans-Regular", Arial, sans-serif;
   font-size: 0.8em;
@@ -700,18 +744,89 @@ ul.SliderHeadPartPoints li {
 }
 
 @media screen and (max-width: 450px) {
-  /* line 524, ../sass/screen.scss */
+  /* line 545, ../sass/screen.scss */
   .FooterPostContainerPreview {
     float: none;
   }
 
-  /* line 530, ../sass/screen.scss */
+  /* line 548, ../sass/screen.scss */
   .FooterPosts {
     display: block;
   }
 
-  /* line 533, ../sass/screen.scss */
+  /* line 551, ../sass/screen.scss */
   .FooterContent, .FooterPosts {
     height: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* line 556, ../sass/screen.scss */
+  .Information {
+    height: auto;
+  }
+
+  /* line 559, ../sass/screen.scss */
+  .InformationContent {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* line 564, ../sass/screen.scss */
+  .RoundBlock {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #fa6900;
+    overflow: hidden;
+    margin: 1em auto;
+    -webkit-transform: translate(0%, 0%);
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  }
+
+  /* line 573, ../sass/screen.scss */
+  .RoundBlockContent {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 579, ../sass/screen.scss */
+  .FooterText {
+    width: 100%;
+  }
+
+  /* line 582, ../sass/screen.scss */
+  .RoundBlock {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* line 586, ../sass/screen.scss */
+  .SliderContainer {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 591, ../sass/screen.scss */
+  .SliderContainer {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 596, ../sass/screen.scss */
+  .SliderContainer {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
   }
 }

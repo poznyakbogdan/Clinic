@@ -37,6 +37,12 @@ $Blue: #69d2e7;
       -ms-transform: translate($dX, $dY);
           transform: translate($dX, $dY);
 }
+@mixin scale($k) {
+  -webkit-transform: scale($k);
+     -moz-transform: scale($k);
+      -ms-transform: scale($k);
+          transform: scale($k);
+}
 .transition{
 	transition-property: all;
 	transition-duration: .3s;
@@ -72,8 +78,6 @@ $Blue: #69d2e7;
 	background: #f1f1f1;
 	width: 100%;
 	height: auto;	
-	padding-top: 70px;
-	padding-left: 85px;
 }
 .HeaderContentTitle{
 	text-align: center;
@@ -125,10 +129,6 @@ $Blue: #69d2e7;
 	padding-top: 1em;
 }
 .AboutContentList{
-	// display: flex;
-	// flex-direction: row;
-	// justify-content: space-around;
-	// flex-wrap: wrap;
 	max-width: 1700px;
 	margin: 0 auto;
 }
@@ -141,7 +141,6 @@ $Blue: #69d2e7;
 	padding: 2em;
 }
 .ConstWidthOfList{
-	//width: 20%;
 	margin-bottom: 2em;
 	min-width: 200px;
 }
@@ -252,7 +251,6 @@ ul.SliderHeadPartPoints li{
 .ToLeftButton, .ToRightButton{
 	position: absolute;
 	top: 50%;
-	//@include translate(0%, -50%);
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
@@ -337,7 +335,6 @@ ul.SliderHeadPartPoints li{
 	height: 550px;
 	background: $Orange;
 	overflow: hidden;
-	//max-width: 1500px;
 }
 .InformationContainer{
 	position: relative;
@@ -351,26 +348,26 @@ ul.SliderHeadPartPoints li{
 	overflow: hidden;
 }
 .RoundBlock{
-	width: 1560px;
-	height: 1050px;
+	width: 100%;
+    height: 185%;
 	border-radius: 50%;
-	background: #fff;
-	//position: absolute;
-	//top: 50%;
-	//right: 0px;
-	@include translate(53%, -76%);
-	// -webkit-shape-outside: circle(50%);
- //    shape-outside: circle(50%);
- //    clip-path: circle(50%);
+	background: $Orange;
+	overflow: hidden;
+	@include translate(50%, -76%);
 }
 .InformationContent{
 	background: transparent;
 	width: 100%;
 	height: 100%;
-	padding-right: 39%;
+	padding-right: 53%;
 	padding-left: 90px;
 	padding-top: 100px;
 	text-align: left;
+}
+.RoundBlockContent{
+	width: 800px;
+	height: 775px;
+	background: #fff;
 }
 .InformationContentTitle{
 	font-size: 1.5em;
@@ -393,6 +390,24 @@ ul.SliderHeadPartPoints li{
 		line-height: 3em;
 	}
 }
+.FooterContFluid{
+	width: 100%;
+	height: auto;
+	max-width: 1700px;
+	padding-top: 70px;
+    padding-left: 85px;
+   	position: relative;
+   	left: 50%;
+   	@include translate(-50%, 0%);
+}
+.FooterBottomNavContainer{
+	width: 100%;
+	height: 70px;
+	background: $Blue;
+	position: absolute;
+	bottom: -70px;
+	left: 0px;
+}
 .FooterContent{
 	display: flex;
 	flex-direction: column;
@@ -400,6 +415,7 @@ ul.SliderHeadPartPoints li{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	height: 420px;
+	margin-bottom: 2em;
 }
 .FooterCompanyInfo{
 	height: 50px;
@@ -410,7 +426,6 @@ ul.SliderHeadPartPoints li{
 	width: 50px;
 	height: 50px;
 	background: $Orange;
-	//display: inline-block;
 	float: left;
 	margin-right: 10px;
 }
@@ -428,10 +443,8 @@ ul.SliderHeadPartPoints li{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	//border: 1px solid black;
-	//border-radius: 5px; 
 }
-.FooterSocial li{
+.FooterSocialIcon{
 	display: inline-block;
 	width: 38px;
 	height: 38px;
@@ -440,6 +453,12 @@ ul.SliderHeadPartPoints li{
 	border: 1px solid black;
 	border-left: 0px;
 	background: transparent;
+	padding: 0.6em 0.4em;
+	a{
+		text-decoration: none;
+		color: #000;
+		font-size: 1em;
+	}
 }
 .FooterSocial li:nth-child(1){
 	border-top-left-radius: 5px;
@@ -469,9 +488,10 @@ ul.SliderHeadPartPoints li{
 	justify-content: space-around;
 	height: 420px;	
 	text-align: left;
+	margin-bottom: 2em;
 }
 .FooterPosts>div{
-	//width: 90%;
+
 }
 .FooterPostContainerPreview{
 	width: 95px;
@@ -500,12 +520,13 @@ ul.SliderHeadPartPoints li{
 	}
 }
 .FooterBottomNav{
-	position: absolute;
-	bottom: -70px;
-	left: 0px;
+	position: relative;
+	left: 50%;
 	background: $Blue;
 	height: 70px;
 	width: 100%;
+	max-width: 1700px;
+	@include translate(-50%, 0%);
 }
 .FooterBottomNav{
 	display: flex;
@@ -524,13 +545,55 @@ ul.SliderHeadPartPoints li{
 	.FooterPostContainerPreview{
 		float: none;
 	}
-	// .FooterCompanyInfo div{
-	// 	float: none;
-	// }
 	.FooterPosts{
 		display: block;
 	}
 	.FooterContent, .FooterPosts{
 		height: auto;	
 	}
+}
+@media screen and(max-width: 1100px){
+	.Information{
+		height: auto;
+	}
+	.InformationContent{
+	 	padding-right: 0; 
+   	 	padding-left: 0; 
+   	 	text-align: center;
+	}
+	.RoundBlock{
+		width: 400px;
+	    height: 400px;
+	    border-radius: 50%;
+	    background: #fa6900;
+	    overflow: hidden;
+	    margin: 1em auto;
+		@include translate(0%, 0%);
+	}
+	.RoundBlockContent{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and(max-width: 600px){
+	.FooterText{
+		width: 100%;
+	}
+	.RoundBlock{
+		width: 200px;
+		height: 200px;
+	}
+	.SliderContainer{
+		@include scale(0.6); 
+	}
+}
+@media screen and(max-width: 900px) {
+	.SliderContainer{
+		@include scale(0.8); 
+	}
+}
+@media screen and(max-width: 600px){
+	.SliderContainer{
+		@include scale(0.5); 
+	}	
 }
