@@ -204,10 +204,10 @@ $Blue: #69d2e7;
 .CenterBlock{
 	z-index: 2;
 }
-.LeftBlock:hover, .RightBlock:hover{
-	left: 50%;
-	opacity: 1;
-}
+// .LeftBlock:hover, .RightBlock:hover{
+// 	left: 50%;
+// 	opacity: 1;
+// }
 .SliderHeadPart{
 	position: relative;
 	top: 0px;
@@ -218,6 +218,11 @@ $Blue: #69d2e7;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	text-align: left;
+}
+.SliderVisibleBlock{
+	@extend .CommonPropertiesOfSlide;
+	background: transparent;
+	z-index: 10;
 }
 .SliderHeadPartPoints{
 	width: auto;
@@ -258,6 +263,7 @@ ul.SliderHeadPartPoints li{
 	background: transparent;
 	color: #7f7f7f;
 	font-size: 25px;
+	z-index: 10;
 }
 .ToLeftButton{
 	left: 20px;
